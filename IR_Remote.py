@@ -14,7 +14,11 @@ def on_push_state(*args):
 	global title
 	title = args[0]['title'].encode('ascii', 'ignore')
 	global random
-	random = 'random' in args[0]
+	if 'random' in args[0]:
+		random = args[0]['random']
+	else:
+		random = False
+	global seek
 	global seek
 	seek = args[0]['seek']
 	global duration
