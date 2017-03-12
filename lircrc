@@ -20,7 +20,7 @@ end
 
 begin
         prog = myprogram
-        button = PrevSkip
+        button = Prev
         config = Prev
 end
 
