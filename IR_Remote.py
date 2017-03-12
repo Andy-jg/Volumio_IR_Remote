@@ -36,7 +36,7 @@ while True:
 		elif button[0] == "Stop":
 			socketIO.emit('stop')	
 		elif button[0] == "Prev":
-			socketIO.emit('previous')
+			socketIO.emit('prev')
 		elif button[0] == "Next":
 			socketIO.emit('next')
 		elif button[0] == "Eject": #Playlist
