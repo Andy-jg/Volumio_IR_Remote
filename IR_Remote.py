@@ -4,7 +4,6 @@ import lirc
 
 #Initiating
 socketIO = SocketIO('localhost', 3000)
-random = 0
 sockid = lirc.init("myprogram","/etc/lirc/lircrc")
 
 def on_push_state(*args):
