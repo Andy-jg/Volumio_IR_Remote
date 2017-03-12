@@ -1,0 +1,55 @@
+#/etc/lirc/lircrc
+
+begin
+        prog = myprogram
+        button = Stop
+        config = Stop
+end
+
+begin
+        prog = myprogram
+        button = Pause
+        config = Pause
+end
+Stop
+begin
+        prog = myprogram
+        button = Play
+        config = Play
+end
+
+begin
+        prog = myprogram
+        button = PrevSkip
+        config = Prev
+end
+
+begin
+        prog = myprogram
+        button = Next
+        config = Next
+end
+
+begin
+        prog = myprogram
+        button = For
+        config = For
+end
+
+begin
+        prog = myprogram
+        button = Rev
+        config = Rev
+end
+
+begin
+        prog = myprogram
+        button = Skip
+        config = Skip
+end
+
+begin
+        prog = myprogram
+        button = Eject
+        config = Eject
+end
